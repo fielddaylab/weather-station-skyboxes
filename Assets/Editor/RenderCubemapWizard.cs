@@ -16,7 +16,7 @@ public class RenderCubemapWizard : ScriptableWizard
 
     void OnWizardCreate()
     {
-        cubemap = new Cubemap(2048, TextureFormat.RGBA32, false);
+        //cubemap = new Cubemap(4096, TextureFormat.RGBA32, false);
         // create temporary camera for rendering
         GameObject go = new GameObject("CubemapCamera");
         go.AddComponent<Camera>();
